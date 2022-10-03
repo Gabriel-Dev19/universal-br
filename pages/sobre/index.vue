@@ -53,7 +53,11 @@ export default {
   components: { HeaderSections, ButtonScrollContato },
   layout: 'layoutSobre',
   head: {
-    title: 'Sobre nós :: Universal Detetives'
+    link: [
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/sobre', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/sobre', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://universaldetectives.pt/sobre', hreflang: 'pt' }
+    ]
   }
 }
 </script>

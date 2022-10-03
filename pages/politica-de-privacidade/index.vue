@@ -79,7 +79,11 @@
 export default {
   layout: 'layoutSobre',
   head: {
-    title: 'Política de privacidade e cookies :: Universal Detetives'
+    link: [
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/politica-de-privacidade', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/politica-de-privacidade', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://universaldetectives.pt/politica-de-privacidade', hreflang: 'pt' }
+    ]
   }
 }
 </script>

@@ -18,6 +18,12 @@
 
 <script>
 export default {
-
+  head: {
+    link: [
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://universaldetetives.com.br/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://universaldetectives.pt/', hreflang: 'pt' }
+    ]
+  }
 }
 </script>
